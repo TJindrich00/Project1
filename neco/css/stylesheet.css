@@ -1,0 +1,35 @@
+.grid-container{
+  display: grid;
+  grid-template:
+  "logo header header" 1fr
+  "list info info" 5fr
+  "list info info" 5fr
+  "footer footer footer" 1fr
+  / 1fr 3fr 3fr;
+}
+.logo{
+  grid-area: logo;
+
+}
+.info{
+  grid-area: info;
+}
+.header{
+
+  grid-area: header;
+  background: red;
+  align-self: center;
+  justify-content: center;
+}
+
+img{
+
+}
+
+a{
+  margin: 0 7.5%;
+border: solid black 1px;
+text-decoration: none;
+color: black;
+
+}
